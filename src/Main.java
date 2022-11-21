@@ -34,8 +34,7 @@ public class Main {
                     result = num1 / num2;
                     break;
 
-                case 5:
-                    System.out.println("You are exiting from the program");
+
                 default:
                     System.out.println("enter valid number");
 
