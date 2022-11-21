@@ -5,37 +5,42 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Select the operation\n 1 - Addition \n 2 - Subtraction \n 3 - Multiplication \n 4 - Division5");
-        Scanner obj3 = new Scanner(System.in);
+        System.out.println("Select the operation\n 1 - Addition \n 2 - Subtraction \n 3 - Multiplication \n 4 - Division0 \n 5 - exit \n");
         int n = input.nextInt();
-        System.out.println("Enter two numbers");
-        int num1 = input.nextInt();
-        int num2 = input.nextInt();
-        int result = 0;
-
-        switch (n){
-
-            case 1:
-                result = num1 + num2;
-                break;
-
-            case 2 :
-                result = num1 - num2;
-                break;
-
-            case 3 :
-                result = num1 * num2;
-                break;
-
-            case 4 :
-                result = num1 / num2;
-                break;
-
-            default:
-                System.out.println("enter valid number");
-
+        if (n == 5){
+            System.out.println("You ar exiting from the program");
         }
-        System.out.println("Result is " + result);
+        else {
+            System.out.println("Enter two numbers");
+            int num1 = input.nextInt();
+            int num2 = input.nextInt();
+            int result = 0;
+
+            switch (n) {
+
+                case 1:
+                    result = num1 + num2;
+                    break;
+
+                case 2:
+                    result = num1 - num2;
+                    break;
+
+                case 3:
+                    result = num1 * num2;
+                    break;
+
+                case 4:
+                    result = num1 / num2;
+                    break;
+
+
+                default:
+                    System.out.println("enter valid number");
+
+            }
+            System.out.println("Result is " + result);
+        }
 
 
     }
