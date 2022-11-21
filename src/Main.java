@@ -35,6 +35,7 @@ public class Main {
                         result = num1 / num2;
                     }
                     catch (ArithmeticException e){
+                        System.out.println("Exception occured");
                         System.out.println(e.toString());
                     }
 
