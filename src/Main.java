@@ -22,6 +22,9 @@ public class Main {
                 result = num1 - num1;
                 break;
 
+            case 3 :
+                result = num1 * num2;
+                break;
         }
 
 
