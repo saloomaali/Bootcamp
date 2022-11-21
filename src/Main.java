@@ -25,6 +25,11 @@ public class Main {
             case 3 :
                 result = num1 * num2;
                 break;
+
+            case 4 :
+                result = num1 / num2;
+                break;
+
         }
 
 
