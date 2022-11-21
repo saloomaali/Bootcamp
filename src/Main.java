@@ -5,7 +5,7 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Select the operation\n 1 - Addition \n 2 - Subtraction \n 3 - Multiplication \n 4 - Division0 \n 5 - exit \n");
+        System.out.println("Select the operation\n 1 - Addition \n 2 - Subtraction \n 3 - Multiplication \n 4 - Division \n 5 - exit \n");
         int n = input.nextInt();
         if (n == 5){
             System.out.println("You ar exiting from the program");
