@@ -19,7 +19,7 @@ public class Main {
                 break;
 
             case 2 :
-                result = num1 - num1;
+                result = num1 - num2;
                 break;
 
             case 3 :
@@ -30,7 +30,11 @@ public class Main {
                 result = num1 / num2;
                 break;
 
+            default:
+                System.out.println("enter valid number");
+
         }
+        System.out.println("Result is " + result);
 
 
     }
