@@ -31,7 +31,13 @@ public class Main {
                     break;
 
                 case 4:
-                    result = num1 / num2;
+                    try {
+                        result = num1 / num2;
+                    }
+                    catch (ArithmeticException e){
+                        System.out.println(e.toString());
+                    }
+
                     break;
 
 
